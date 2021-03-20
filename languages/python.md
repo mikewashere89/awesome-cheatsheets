@@ -49,7 +49,7 @@
 | True      | Boolean value for not False or 1 | Value Keyword|
 | False     | Boolean Value for not True or 0 | Value Keyword |
 | None      | No Value | Value keyword |
-| and       | returns true if both (oprand) are true (other language && ) | Operator keyword |
+| and       | returns true if both (opesrand) are true (other language && ) | Operator keyword |
 | or        | returns true of either operands is true (other language || ) | Operator keyword |
 | in        | returns true if word is in iterator | Operator keyword |
 | is        | returns true if id of variables are same | Operator keyword |
@@ -71,11 +71,11 @@
 | yield | yields values instead of returning (are called generators) | returning keyword |
 | import | import libraries/modules/packages | import |
 | from | import specific function/classes from modules/packages | import |
-| try | this block will be tried to get executed | execption handling |
-| execpt | is any execption/error has occured it'll be executed | execption handling |
-| finally | It'll be executed no matter execption occurs or not | execption handling | 
-| raise | thros any specific error/execption | execption handling |
-| assert | throws an AssertionError if condition is false | execption handling |
+| try | this block will be tried to get executed | exception handling |
+| except | is any exception/error has occurred it'll be executed | exception handling |
+| finally | It'll be executed no matter exception occurs or not | exception handling | 
+| raise | thros any specific error/exception | exception handling |
+| assert | throws an AssertionError if condition is false | exception handling |
 | async | used to define asynchronous functions/co-routines | asynchronous programming |
 | await | used to specify a point when control is taken back | asynchronous programming |
 | del | deletes/unsets any user defined data |  variable handling |
@@ -89,7 +89,7 @@
 
 | Operator | Description |
 |-|-|
-|  ( )	|  grouping parenthesis, function call, tuple declaration |
+|  ( )	|  grouping parentheses, function call, tuple declaration |
 |  [ ]	|  array indexing, also declaring lists etc.|
 |  !	|    relational not, complement, ! a  yields true or false |
 |  ~   | 	bitwise not, ones complement, ~a |
